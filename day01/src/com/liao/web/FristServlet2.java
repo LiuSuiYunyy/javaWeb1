@@ -21,6 +21,7 @@ public class FristServlet2 extends HttpServlet {
         PrintWriter writer = resp.getWriter();
         System.out.println("1111");
         writer.write("hello1");
+        System.out.println("33333");
 
     }
 }
